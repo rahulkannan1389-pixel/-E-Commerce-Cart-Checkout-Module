@@ -1,0 +1,3024 @@
+2026-06-24 01:42:06 - Starting Application using Java 21.0.8 with PID 15468 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 01:42:06 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 01:42:06 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 01:42:06 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 01:42:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 01:42:07 - Finished Spring Data repository scanning in 75 ms. Found 7 JPA repository interfaces.
+2026-06-24 01:42:08 - Tomcat initialized with port 9090 (http)
+2026-06-24 01:42:08 - Starting service [Tomcat]
+2026-06-24 01:42:08 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 01:42:08 - Initializing Spring embedded WebApplicationContext
+2026-06-24 01:42:08 - Root WebApplicationContext: initialization completed in 1819 ms
+2026-06-24 01:42:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 01:42:08 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 01:42:08 - HHH000026: Second-level cache disabled
+2026-06-24 01:42:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 01:42:08 - HikariPool-1 - Starting...
+2026-06-24 01:42:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@595c85a3
+2026-06-24 01:42:09 - HikariPool-1 - Start completed.
+2026-06-24 01:42:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 01:42:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 01:42:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 01:42:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 01:42:11 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 01:42:11 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 01:42:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 01:42:11 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 01:42:11 - LiveReload server is running on port 35729
+2026-06-24 01:42:11 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 01:42:12 - Started Application in 6.332 seconds (process running for 7.294)
+2026-06-24 01:47:16 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 01:47:16 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 01:47:16 - Detected StandardServletMultipartResolver
+2026-06-24 01:47:16 - Detected AcceptHeaderLocaleResolver
+2026-06-24 01:47:16 - Detected FixedThemeResolver
+2026-06-24 01:47:16 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4c859e83
+2026-06-24 01:47:16 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@50e652a1
+2026-06-24 01:47:16 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 01:47:16 - Completed initialization in 6 ms
+2026-06-24 01:47:16 - GET "/api/cart%0A", parameters={}
+2026-06-24 01:47:16 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 01:47:16 - Resource not found for path [api/cart%0A]
+2026-06-24 01:47:16 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 01:47:16 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:47:16 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T01:47:16.4 (truncated)...]
+2026-06-24 01:47:16 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/cart%0A.]
+2026-06-24 01:47:16 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 01:47:30 - POST "/api/cart%0A", parameters={}
+2026-06-24 01:47:30 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 01:47:30 - Resource not found for path [api/cart%0A]
+2026-06-24 01:47:30 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 01:47:30 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:47:30 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T01:47:30.9 (truncated)...]
+2026-06-24 01:47:30 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/cart%0A.]
+2026-06-24 01:47:30 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 01:48:59 - POST "/api/cart%0A", parameters={}
+2026-06-24 01:48:59 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 01:48:59 - Resource not found for path [api/cart%0A]
+2026-06-24 01:48:59 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 01:48:59 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:48:59 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T01:48:59.5 (truncated)...]
+2026-06-24 01:48:59 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/cart%0A.]
+2026-06-24 01:48:59 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 01:49:23 - GET "/api/cart/1%0A", parameters={}
+2026-06-24 01:49:23 - Mapped to com.techpalle.restcontroller.CartController#getCart(Long, HttpServletRequest)
+2026-06-24 01:49:23 - API call: Get cart for user 1
+2026-06-24 01:49:23 - Fetching cart for user 1
+2026-06-24 01:49:24 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 01:49:24 - Cart not found for user 1
+2026-06-24 01:49:24 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 01:49:24 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:49:24 - Writing [ApiResponse(statusCode=404, message=Cart not found, data=null, timestamp=2026-06-24T01:49:24.276215, (truncated)...]
+2026-06-24 01:49:24 - Resolved [com.techpalle.exception.ResourceNotFoundException: Cart not found]
+2026-06-24 01:49:24 - Completed 404 NOT_FOUND
+2026-06-24 01:50:39 - POST "/api/cart%0A", parameters={}
+2026-06-24 01:50:39 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 01:50:39 - Resource not found for path [api/cart%0A]
+2026-06-24 01:50:39 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 01:50:39 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:50:39 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T01:50:39.7 (truncated)...]
+2026-06-24 01:50:39 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/cart%0A.]
+2026-06-24 01:50:39 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 01:54:59 - POST "/api/cart", parameters={}
+2026-06-24 01:54:59 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 01:55:00 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=1, productId=1, quantity=2)]
+2026-06-24 01:55:00 - API call: Add to cart for user 1
+2026-06-24 01:55:00 - Adding product 1 to cart for user 1
+2026-06-24 01:55:00 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 01:55:00 - User not found with ID 1
+2026-06-24 01:55:00 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 01:55:00 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 01:55:00 - Writing [ApiResponse(statusCode=404, message=User not found, data=null, timestamp=2026-06-24T01:55:00.1020028 (truncated)...]
+2026-06-24 01:55:00 - Resolved [com.techpalle.exception.ResourceNotFoundException: User not found]
+2026-06-24 01:55:00 - Completed 404 NOT_FOUND
+2026-06-24 01:58:03 - Application shutdown requested.
+2026-06-24 01:58:03 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 01:58:03 - Graceful shutdown complete
+2026-06-24 01:58:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 01:58:03 - HikariPool-1 - Shutdown initiated...
+2026-06-24 01:58:03 - HikariPool-1 - Shutdown completed.
+2026-06-24 01:59:27 - Starting Application using Java 21.0.8 with PID 3916 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 01:59:27 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 01:59:27 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 01:59:27 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 01:59:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 01:59:28 - Finished Spring Data repository scanning in 70 ms. Found 7 JPA repository interfaces.
+2026-06-24 01:59:29 - Tomcat initialized with port 9090 (http)
+2026-06-24 01:59:29 - Starting service [Tomcat]
+2026-06-24 01:59:29 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 01:59:29 - Initializing Spring embedded WebApplicationContext
+2026-06-24 01:59:29 - Root WebApplicationContext: initialization completed in 1447 ms
+2026-06-24 01:59:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 01:59:29 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 01:59:29 - HHH000026: Second-level cache disabled
+2026-06-24 01:59:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 01:59:29 - HikariPool-1 - Starting...
+2026-06-24 01:59:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@266a2520
+2026-06-24 01:59:30 - HikariPool-1 - Start completed.
+2026-06-24 01:59:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 01:59:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 01:59:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 01:59:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 01:59:32 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 01:59:32 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 01:59:32 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 01:59:32 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 01:59:32 - LiveReload server is running on port 35729
+2026-06-24 01:59:32 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 01:59:32 - Started Application in 5.516 seconds (process running for 6.452)
+2026-06-24 02:02:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 02:02:49 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 02:02:49 - Detected StandardServletMultipartResolver
+2026-06-24 02:02:49 - Detected AcceptHeaderLocaleResolver
+2026-06-24 02:02:49 - Detected FixedThemeResolver
+2026-06-24 02:02:49 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@369b2325
+2026-06-24 02:02:49 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@18643704
+2026-06-24 02:02:49 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 02:02:49 - Completed initialization in 5 ms
+2026-06-24 02:02:49 - POST "/api/cart", parameters={}
+2026-06-24 02:02:49 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 02:02:50 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=1, productId=1, quantity=2)]
+2026-06-24 02:02:50 - API call: Add to cart for user 1
+2026-06-24 02:02:50 - Adding product 1 to cart for user 1
+2026-06-24 02:02:50 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:02:50 - User not found with ID 1
+2026-06-24 02:02:50 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 02:02:50 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:02:50 - Writing [ApiResponse(statusCode=404, message=User not found, data=null, timestamp=2026-06-24T02:02:50.2147197 (truncated)...]
+2026-06-24 02:02:50 - Resolved [com.techpalle.exception.ResourceNotFoundException: User not found]
+2026-06-24 02:02:50 - Completed 404 NOT_FOUND
+2026-06-24 02:14:13 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-06-24 02:14:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:14:13 - Graceful shutdown complete
+2026-06-24 02:14:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:13 - HikariPool-1 - Shutdown initiated...
+2026-06-24 02:14:14 - HikariPool-1 - Shutdown completed.
+2026-06-24 02:14:14 - Starting Application using Java 21.0.8 with PID 3916 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:14:14 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:14:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:14:14 - Finished Spring Data repository scanning in 57 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:14:15 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:14:15 - Starting service [Tomcat]
+2026-06-24 02:14:15 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:14:15 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:14:15 - Root WebApplicationContext: initialization completed in 923 ms
+2026-06-24 02:14:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:14:15 - HHH000026: Second-level cache disabled
+2026-06-24 02:14:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:14:15 - HikariPool-2 - Starting...
+2026-06-24 02:14:15 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56ace6ce
+2026-06-24 02:14:15 - HikariPool-2 - Start completed.
+2026-06-24 02:14:15 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:14:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:14:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:14:15 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:14:15 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:14:15 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:14:15 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:14:15 - LiveReload server is running on port 35729
+2026-06-24 02:14:15 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:14:15 - Started Application in 1.86 seconds (process running for 889.534)
+2026-06-24 02:14:15 - Condition evaluation unchanged
+2026-06-24 02:14:17 - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2026-06-24 02:14:17 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:14:17 - Graceful shutdown complete
+2026-06-24 02:14:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:17 - HikariPool-2 - Shutdown initiated...
+2026-06-24 02:14:17 - HikariPool-2 - Shutdown completed.
+2026-06-24 02:14:18 - Starting Application using Java 21.0.8 with PID 3916 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:14:18 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:14:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:14:18 - Finished Spring Data repository scanning in 20 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:14:18 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:14:18 - Starting service [Tomcat]
+2026-06-24 02:14:18 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:14:18 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:14:18 - Root WebApplicationContext: initialization completed in 570 ms
+2026-06-24 02:14:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:14:18 - HHH000026: Second-level cache disabled
+2026-06-24 02:14:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:14:18 - HikariPool-3 - Starting...
+2026-06-24 02:14:18 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64bfa02a
+2026-06-24 02:14:18 - HikariPool-3 - Start completed.
+2026-06-24 02:14:18 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:14:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:14:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:14:19 - 21 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:14:19 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:14:19 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:14:19 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:14:19 - LiveReload server is running on port 35729
+2026-06-24 02:14:19 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:14:19 - Started Application in 1.346 seconds (process running for 892.875)
+2026-06-24 02:14:19 - Condition evaluation unchanged
+2026-06-24 02:14:20 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-24 02:14:20 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:14:20 - Graceful shutdown complete
+2026-06-24 02:14:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:20 - HikariPool-3 - Shutdown initiated...
+2026-06-24 02:14:20 - HikariPool-3 - Shutdown completed.
+2026-06-24 02:14:20 - Starting Application using Java 21.0.8 with PID 3916 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:14:20 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:14:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:14:21 - Finished Spring Data repository scanning in 28 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:14:21 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:14:21 - Starting service [Tomcat]
+2026-06-24 02:14:21 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:14:21 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:14:21 - Root WebApplicationContext: initialization completed in 376 ms
+2026-06-24 02:14:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:14:21 - HHH000026: Second-level cache disabled
+2026-06-24 02:14:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:14:21 - HikariPool-4 - Starting...
+2026-06-24 02:14:21 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@768fb615
+2026-06-24 02:14:21 - HikariPool-4 - Start completed.
+2026-06-24 02:14:21 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:14:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:14:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:14:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:14:21 - 21 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:14:21 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:14:21 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:14:21 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:14:21 - LiveReload server is running on port 35729
+2026-06-24 02:14:21 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:14:21 - Started Application in 0.908 seconds (process running for 895.261)
+2026-06-24 02:14:21 - Condition evaluation unchanged
+2026-06-24 02:15:35 - Application shutdown requested.
+2026-06-24 02:15:35 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:15:35 - Graceful shutdown complete
+2026-06-24 02:15:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:15:35 - HikariPool-4 - Shutdown initiated...
+2026-06-24 02:15:35 - HikariPool-4 - Shutdown completed.
+2026-06-24 02:31:07 - Starting Application using Java 21.0.8 with PID 10820 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:31:07 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:31:07 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 02:31:07 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 02:31:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:31:09 - Finished Spring Data repository scanning in 59 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:31:09 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:31:09 - Starting service [Tomcat]
+2026-06-24 02:31:09 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:31:09 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:31:09 - Root WebApplicationContext: initialization completed in 2531 ms
+2026-06-24 02:31:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:31:10 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 02:31:10 - HHH000026: Second-level cache disabled
+2026-06-24 02:31:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:31:10 - HikariPool-1 - Starting...
+2026-06-24 02:31:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ea484c2
+2026-06-24 02:31:10 - HikariPool-1 - Start completed.
+2026-06-24 02:31:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:31:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:31:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:31:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:31:12 - 21 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:31:13 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:31:13 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:31:13 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:31:13 - LiveReload server is running on port 35729
+2026-06-24 02:31:13 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:31:13 - Started Application in 6.518 seconds (process running for 7.472)
+2026-06-24 02:31:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 02:31:43 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 02:31:43 - Detected StandardServletMultipartResolver
+2026-06-24 02:31:43 - Detected AcceptHeaderLocaleResolver
+2026-06-24 02:31:43 - Detected FixedThemeResolver
+2026-06-24 02:31:43 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7df546a4
+2026-06-24 02:31:43 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@73b06c16
+2026-06-24 02:31:43 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 02:31:43 - Completed initialization in 8 ms
+2026-06-24 02:31:43 - POST "/api/users", parameters={}
+2026-06-24 02:31:43 - Mapped to com.techpalle.restcontroller.UserController#createUser(CreateUserRequest, HttpServletRequest)
+2026-06-24 02:31:43 - Read "application/json;charset=UTF-8" to [CreateUserRequest(name=Rahul, email=rahul@gmail.com)]
+2026-06-24 02:31:44 - API call: Create new user with email rahul@gmail.com
+2026-06-24 02:31:44 - Creating new user with email: rahul@gmail.com
+2026-06-24 02:31:44 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-24 02:31:44 - 
+    insert 
+    into
+        users
+        (created_at, email, name) 
+    values
+        (?, ?, ?)
+2026-06-24 02:31:44 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:31:44 - Writing [ApiResponse(statusCode=200, message=User created successfully, data=UserDTO(id=1, name=Rahul, email= (truncated)...]
+2026-06-24 02:31:44 - Completed 201 CREATED
+2026-06-24 02:32:50 - POST "/api/users", parameters={}
+2026-06-24 02:32:50 - Mapped to com.techpalle.restcontroller.UserController#createUser(CreateUserRequest, HttpServletRequest)
+2026-06-24 02:32:50 - Read "application/json;charset=UTF-8" to [CreateUserRequest(name=suman, email=suman@gmail.com)]
+2026-06-24 02:32:50 - API call: Create new user with email suman@gmail.com
+2026-06-24 02:32:50 - Creating new user with email: suman@gmail.com
+2026-06-24 02:32:50 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-24 02:32:50 - 
+    insert 
+    into
+        users
+        (created_at, email, name) 
+    values
+        (?, ?, ?)
+2026-06-24 02:32:50 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:32:50 - Writing [ApiResponse(statusCode=200, message=User created successfully, data=UserDTO(id=2, name=suman, email= (truncated)...]
+2026-06-24 02:32:50 - Completed 201 CREATED
+2026-06-24 02:33:33 - GET "/api/users", parameters={}
+2026-06-24 02:33:33 - Mapped to com.techpalle.restcontroller.UserController#getAllUsers(Pageable, HttpServletRequest)
+2026-06-24 02:33:33 - API call: Get all users
+2026-06-24 02:33:33 - Fetching all users with pagination
+2026-06-24 02:33:33 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc 
+    limit
+        ?, ?
+2026-06-24 02:33:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:33:33 - Writing [ApiResponse(statusCode=200, message=Users fetched successfully, data=Page 1 of 1 containing com.tech (truncated)...]
+2026-06-24 02:33:33 - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-24 02:33:33 - Completed 200 OK
+2026-06-24 02:34:05 - GET "/api/users/1", parameters={}
+2026-06-24 02:34:05 - Mapped to com.techpalle.restcontroller.UserController#getUserById(Long, HttpServletRequest)
+2026-06-24 02:34:05 - API call: Get user 1
+2026-06-24 02:34:05 - Fetching user with ID: 1
+2026-06-24 02:34:05 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:34:05 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:34:05 - Writing [ApiResponse(statusCode=200, message=User fetched successfully, data=UserDTO(id=1, name=Rahul, email= (truncated)...]
+2026-06-24 02:34:05 - Completed 200 OK
+2026-06-24 02:34:29 - GET "/api/users/2", parameters={}
+2026-06-24 02:34:29 - Mapped to com.techpalle.restcontroller.UserController#getUserById(Long, HttpServletRequest)
+2026-06-24 02:34:29 - API call: Get user 2
+2026-06-24 02:34:29 - Fetching user with ID: 2
+2026-06-24 02:34:29 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:34:29 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:34:29 - Writing [ApiResponse(statusCode=200, message=User fetched successfully, data=UserDTO(id=2, name=suman, email= (truncated)...]
+2026-06-24 02:34:29 - Completed 200 OK
+2026-06-24 02:35:07 - DELETE "/api/users/2", parameters={}
+2026-06-24 02:35:07 - Mapped to com.techpalle.restcontroller.UserController#deleteUser(Long, HttpServletRequest)
+2026-06-24 02:35:07 - API call: Delete user 2
+2026-06-24 02:35:07 - Deleting user with ID: 2
+2026-06-24 02:35:07 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:35:07 - 
+    delete 
+    from
+        users 
+    where
+        id=?
+2026-06-24 02:35:07 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:35:07 - Writing [ApiResponse(statusCode=200, message=User deleted successfully, data=null, timestamp=2026-06-24T02:35 (truncated)...]
+2026-06-24 02:35:07 - Completed 200 OK
+2026-06-24 02:35:42 - POST "/api/users", parameters={}
+2026-06-24 02:35:42 - Mapped to com.techpalle.restcontroller.UserController#createUser(CreateUserRequest, HttpServletRequest)
+2026-06-24 02:35:42 - Read "application/json;charset=UTF-8" to [CreateUserRequest(name=suman, email=suman@gmail.com)]
+2026-06-24 02:35:42 - API call: Create new user with email suman@gmail.com
+2026-06-24 02:35:42 - Creating new user with email: suman@gmail.com
+2026-06-24 02:35:42 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-24 02:35:42 - 
+    insert 
+    into
+        users
+        (created_at, email, name) 
+    values
+        (?, ?, ?)
+2026-06-24 02:35:42 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:35:42 - Writing [ApiResponse(statusCode=200, message=User created successfully, data=UserDTO(id=3, name=suman, email= (truncated)...]
+2026-06-24 02:35:42 - Completed 201 CREATED
+2026-06-24 02:38:53 - POST "/api/cart", parameters={}
+2026-06-24 02:38:53 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 02:38:53 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=1, productId=1, quantity=2)]
+2026-06-24 02:38:53 - API call: Add to cart for user 1
+2026-06-24 02:38:53 - Adding product 1 to cart for user 1
+2026-06-24 02:38:53 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:38:53 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 02:38:53 - Product not found with ID 1
+2026-06-24 02:38:53 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 02:38:53 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:38:53 - Writing [ApiResponse(statusCode=404, message=Product not found, data=null, timestamp=2026-06-24T02:38:53.2547 (truncated)...]
+2026-06-24 02:38:53 - Resolved [com.techpalle.exception.ResourceNotFoundException: Product not found]
+2026-06-24 02:38:53 - Completed 404 NOT_FOUND
+2026-06-24 02:45:38 - Restarting due to 7 class path changes (0 additions, 7 deletions, 0 modifications)
+2026-06-24 02:45:38 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:45:38 - Graceful shutdown complete
+2026-06-24 02:45:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:45:38 - HikariPool-1 - Shutdown initiated...
+2026-06-24 02:45:38 - HikariPool-1 - Shutdown completed.
+2026-06-24 02:45:38 - Starting Application using Java 21.0.8 with PID 10820 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:45:38 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:45:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:45:39 - Finished Spring Data repository scanning in 17 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:45:39 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:45:39 - Starting service [Tomcat]
+2026-06-24 02:45:39 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:45:39 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:45:39 - Root WebApplicationContext: initialization completed in 417 ms
+2026-06-24 02:45:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:45:39 - HHH000026: Second-level cache disabled
+2026-06-24 02:45:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:45:39 - HikariPool-2 - Starting...
+2026-06-24 02:45:39 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34779fe9
+2026-06-24 02:45:39 - HikariPool-2 - Start completed.
+2026-06-24 02:45:39 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:45:39 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:45:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:45:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:45:39 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:45:39 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:45:39 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:45:39 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:45:39 - LiveReload server is running on port 35729
+2026-06-24 02:45:39 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:45:39 - Started Application in 1.086 seconds (process running for 873.904)
+2026-06-24 02:45:39 - Condition evaluation unchanged
+2026-06-24 02:45:46 - Application shutdown requested.
+2026-06-24 02:45:46 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 02:45:46 - Graceful shutdown complete
+2026-06-24 02:45:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:45:46 - HikariPool-2 - Shutdown initiated...
+2026-06-24 02:45:46 - HikariPool-2 - Shutdown completed.
+2026-06-24 02:55:00 - Starting Application using Java 21.0.8 with PID 28784 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 02:55:00 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 02:55:00 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 02:55:00 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 02:55:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 02:55:02 - Finished Spring Data repository scanning in 234 ms. Found 7 JPA repository interfaces.
+2026-06-24 02:55:04 - Tomcat initialized with port 9090 (http)
+2026-06-24 02:55:04 - Starting service [Tomcat]
+2026-06-24 02:55:04 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 02:55:04 - Initializing Spring embedded WebApplicationContext
+2026-06-24 02:55:04 - Root WebApplicationContext: initialization completed in 4139 ms
+2026-06-24 02:55:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 02:55:05 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 02:55:05 - HHH000026: Second-level cache disabled
+2026-06-24 02:55:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 02:55:06 - HikariPool-1 - Starting...
+2026-06-24 02:55:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dfcb6e9
+2026-06-24 02:55:07 - HikariPool-1 - Start completed.
+2026-06-24 02:55:07 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 02:55:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 02:55:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 02:55:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 02:55:12 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 02:55:12 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 02:55:13 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 02:55:13 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 02:55:13 - LiveReload server is running on port 35729
+2026-06-24 02:55:13 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 02:55:13 - Started Application in 15.04 seconds (process running for 16.997)
+2026-06-24 02:55:13 - Loading initial data...
+2026-06-24 02:55:14 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 02:55:14 - Creating sample products...
+2026-06-24 02:55:15 - 
+    insert 
+    into
+        products
+        (name, price, stock_quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:15 - 
+    insert 
+    into
+        products
+        (name, price, stock_quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:15 - 
+    insert 
+    into
+        products
+        (name, price, stock_quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:15 - 
+    insert 
+    into
+        products
+        (name, price, stock_quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:15 - 
+    insert 
+    into
+        products
+        (name, price, stock_quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:15 - Sample products created successfully
+2026-06-24 02:55:15 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 02:55:15 - Initial data loading completed
+2026-06-24 02:55:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 02:55:43 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 02:55:43 - Detected StandardServletMultipartResolver
+2026-06-24 02:55:43 - Detected AcceptHeaderLocaleResolver
+2026-06-24 02:55:43 - Detected FixedThemeResolver
+2026-06-24 02:55:43 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@ecd130f
+2026-06-24 02:55:43 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6a858737
+2026-06-24 02:55:43 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 02:55:43 - Completed initialization in 22 ms
+2026-06-24 02:55:43 - POST "/api/cart", parameters={}
+2026-06-24 02:55:43 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 02:55:44 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=1, productId=1, quantity=2)]
+2026-06-24 02:55:44 - API call: Add to cart for user 1
+2026-06-24 02:55:44 - Adding product 1 to cart for user 1
+2026-06-24 02:55:44 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 02:55:44 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 02:55:44 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 02:55:44 - Creating new cart for user 1
+2026-06-24 02:55:44 - 
+    insert 
+    into
+        carts
+        (user_id) 
+    values
+        (?)
+2026-06-24 02:55:44 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=? 
+        and ci1_0.product_id=?
+2026-06-24 02:55:44 - Adding new item to cart. Product ID: 1
+2026-06-24 02:55:44 - Product successfully added to cart for user 1
+2026-06-24 02:55:44 - 
+    insert 
+    into
+        cart_items
+        (cart_id, product_id, quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 02:55:44 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 02:55:44 - Writing [ApiResponse(statusCode=200, message=Item added to cart, data=CartDTO(id=1, userId=1, items=[CartItem (truncated)...]
+2026-06-24 02:55:44 - Completed 201 CREATED
+2026-06-24 03:13:33 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-24 03:13:33 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 03:13:33 - Graceful shutdown complete
+2026-06-24 03:13:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:13:33 - HikariPool-1 - Shutdown initiated...
+2026-06-24 03:13:33 - HikariPool-1 - Shutdown completed.
+2026-06-24 03:13:33 - Starting Application using Java 21.0.8 with PID 28784 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:13:33 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:13:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:13:34 - Finished Spring Data repository scanning in 59 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:13:34 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:13:34 - Starting service [Tomcat]
+2026-06-24 03:13:34 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:13:34 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:13:34 - Root WebApplicationContext: initialization completed in 1342 ms
+2026-06-24 03:13:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:13:35 - HHH000026: Second-level cache disabled
+2026-06-24 03:13:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:13:35 - HikariPool-2 - Starting...
+2026-06-24 03:13:35 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65ecdb33
+2026-06-24 03:13:35 - HikariPool-2 - Start completed.
+2026-06-24 03:13:35 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 03:13:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 03:13:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:13:57 - Starting Application using Java 21.0.8 with PID 28928 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:13:57 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:13:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 03:13:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 03:14:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:14:00 - Finished Spring Data repository scanning in 273 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:14:02 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:14:02 - Starting service [Tomcat]
+2026-06-24 03:14:02 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:14:02 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:14:02 - Root WebApplicationContext: initialization completed in 4885 ms
+2026-06-24 03:14:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:14:03 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 03:14:03 - HHH000026: Second-level cache disabled
+2026-06-24 03:14:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:14:04 - HikariPool-1 - Starting...
+2026-06-24 03:14:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dfcb6e9
+2026-06-24 03:14:05 - HikariPool-1 - Start completed.
+2026-06-24 03:14:05 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 03:14:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 03:14:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:14:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 03:14:12 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 03:14:12 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 03:14:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 03:14:12 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 03:14:13 - LiveReload server is running on port 35729
+2026-06-24 03:14:13 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 03:14:13 - Started Application in 17.34 seconds (process running for 19.503)
+2026-06-24 03:14:13 - Loading initial data...
+2026-06-24 03:14:14 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 03:14:14 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 03:14:14 - Initial data loading completed
+2026-06-24 03:14:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 03:14:31 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 03:14:31 - Detected StandardServletMultipartResolver
+2026-06-24 03:14:31 - Detected AcceptHeaderLocaleResolver
+2026-06-24 03:14:31 - Detected FixedThemeResolver
+2026-06-24 03:14:31 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@400b2e15
+2026-06-24 03:14:31 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5bb401a
+2026-06-24 03:14:31 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 03:14:31 - Completed initialization in 12 ms
+2026-06-24 03:14:31 - POST "/api/cart", parameters={}
+2026-06-24 03:14:31 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 03:14:32 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=3, productId=2, quantity=7)]
+2026-06-24 03:14:32 - API call: Add to cart for user 3
+2026-06-24 03:14:32 - Adding product 2 to cart for user 3
+2026-06-24 03:14:32 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 03:14:32 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:14:32 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:14:32 - Creating new cart for user 3
+2026-06-24 03:14:32 - 
+    insert 
+    into
+        carts
+        (user_id) 
+    values
+        (?)
+2026-06-24 03:14:32 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=? 
+        and ci1_0.product_id=?
+2026-06-24 03:14:32 - Adding new item to cart. Product ID: 2
+2026-06-24 03:14:32 - 
+    insert 
+    into
+        cart_items
+        (cart_id, product_id, quantity) 
+    values
+        (?, ?, ?)
+2026-06-24 03:14:32 - Product successfully added to cart for user 3
+2026-06-24 03:14:32 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:14:32 - Writing [ApiResponse(statusCode=200, message=Item added to cart, data=CartDTO(id=2, userId=3, items=[CartItem (truncated)...]
+2026-06-24 03:14:32 - Completed 201 CREATED
+2026-06-24 03:15:10 - POST "/api/cart", parameters={}
+2026-06-24 03:15:10 - Mapped to com.techpalle.restcontroller.CartController#addToCart(AddToCartRequest, HttpServletRequest)
+2026-06-24 03:15:10 - Read "application/json;charset=UTF-8" to [AddToCartRequest(userId=2, productId=3, quantity=7)]
+2026-06-24 03:15:10 - API call: Add to cart for user 2
+2026-06-24 03:15:10 - Adding product 3 to cart for user 2
+2026-06-24 03:15:10 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 03:15:10 - User not found with ID 2
+2026-06-24 03:15:10 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 03:15:10 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:15:10 - Writing [ApiResponse(statusCode=404, message=User not found, data=null, timestamp=2026-06-24T03:15:10.1507861 (truncated)...]
+2026-06-24 03:15:10 - Resolved [com.techpalle.exception.ResourceNotFoundException: User not found]
+2026-06-24 03:15:10 - Completed 404 NOT_FOUND
+2026-06-24 03:15:26 - GET "/api/cart", parameters={}
+2026-06-24 03:15:26 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:15:26 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:15:26 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:15:26.9 (truncated)...]
+2026-06-24 03:15:26 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-06-24 03:15:26 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:16:06 - GET "/api/cart/1", parameters={}
+2026-06-24 03:16:06 - Mapped to com.techpalle.restcontroller.CartController#getCart(Long, HttpServletRequest)
+2026-06-24 03:16:06 - API call: Get cart for user 1
+2026-06-24 03:16:06 - Fetching cart for user 1
+2026-06-24 03:16:06 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:16:06 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:16:06 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:16:06 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:16:06 - Writing [ApiResponse(statusCode=200, message=Cart fetched successfully, data=CartDTO(id=1, userId=1, items=[C (truncated)...]
+2026-06-24 03:16:06 - Completed 200 OK
+2026-06-24 03:16:38 - GET "/api/cart/2", parameters={}
+2026-06-24 03:16:38 - Mapped to com.techpalle.restcontroller.CartController#getCart(Long, HttpServletRequest)
+2026-06-24 03:16:38 - API call: Get cart for user 2
+2026-06-24 03:16:38 - Fetching cart for user 2
+2026-06-24 03:16:38 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:16:38 - Cart not found for user 2
+2026-06-24 03:16:38 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 03:16:38 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:16:38 - Writing [ApiResponse(statusCode=404, message=Cart not found, data=null, timestamp=2026-06-24T03:16:38.8009609 (truncated)...]
+2026-06-24 03:16:38 - Resolved [com.techpalle.exception.ResourceNotFoundException: Cart not found]
+2026-06-24 03:16:38 - Completed 404 NOT_FOUND
+2026-06-24 03:16:48 - GET "/api/cart/3", parameters={}
+2026-06-24 03:16:48 - Mapped to com.techpalle.restcontroller.CartController#getCart(Long, HttpServletRequest)
+2026-06-24 03:16:48 - API call: Get cart for user 3
+2026-06-24 03:16:48 - Fetching cart for user 3
+2026-06-24 03:16:48 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:16:48 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:16:48 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:16:48 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:16:48 - Writing [ApiResponse(statusCode=200, message=Cart fetched successfully, data=CartDTO(id=2, userId=3, items=[C (truncated)...]
+2026-06-24 03:16:48 - Completed 200 OK
+2026-06-24 03:17:55 - DELETE "/api/cart/3", parameters={}
+2026-06-24 03:17:55 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:17:55 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:17:55 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:17:55.1 (truncated)...]
+2026-06-24 03:17:55 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-06-24 03:17:55 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:18:02 - DELETE "/api/cart/2", parameters={}
+2026-06-24 03:18:02 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:18:02 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:18:02 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:18:02.0 (truncated)...]
+2026-06-24 03:18:02 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-06-24 03:18:02 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:18:34 - DELETE "/api/cart/item/2", parameters={}
+2026-06-24 03:18:34 - Mapped to com.techpalle.restcontroller.CartController#removeFromCart(Long, HttpServletRequest)
+2026-06-24 03:18:34 - API call: Remove cart item 2
+2026-06-24 03:18:34 - Removing cart item 2
+2026-06-24 03:18:34 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.id=?
+2026-06-24 03:18:34 - Cart item 2 removed successfully
+2026-06-24 03:18:34 - 
+    delete 
+    from
+        cart_items 
+    where
+        id=?
+2026-06-24 03:18:34 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:18:34 - Writing [ApiResponse(statusCode=200, message=Item removed from cart, data=null, timestamp=2026-06-24T03:18:34 (truncated)...]
+2026-06-24 03:18:34 - Completed 200 OK
+2026-06-24 03:19:28 - DELETE "/api/cart/clear/3", parameters={}
+2026-06-24 03:19:28 - Mapped to com.techpalle.restcontroller.CartController#clearCart(Long, HttpServletRequest)
+2026-06-24 03:19:28 - API call: Clear cart for user 3
+2026-06-24 03:19:28 - Clearing cart for user 3
+2026-06-24 03:19:28 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:19:28 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:19:28 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:19:28 - Cart cleared successfully for user 3
+2026-06-24 03:19:28 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:19:28 - Writing [ApiResponse(statusCode=200, message=Cart cleared successfully, data=null, timestamp=2026-06-24T03:19 (truncated)...]
+2026-06-24 03:19:28 - Completed 200 OK
+2026-06-24 03:22:42 - PUT "/api/1", parameters={}
+2026-06-24 03:22:42 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:22:42 - Resource not found for path [api/1]
+2026-06-24 03:22:42 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:22:42 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:22:42 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:22:42.5 (truncated)...]
+2026-06-24 03:22:42 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/1.]
+2026-06-24 03:22:42 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:22:59 - PUT "/api/cart/1", parameters={}
+2026-06-24 03:22:59 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:22:59 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:22:59 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:22:59.2 (truncated)...]
+2026-06-24 03:22:59 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-06-24 03:22:59 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:23:05 - PUT "/api/cart/2", parameters={}
+2026-06-24 03:23:05 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:23:05 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:23:05 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:23:05.5 (truncated)...]
+2026-06-24 03:23:05 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-06-24 03:23:05 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:23:10 - PUT "/api/cart", parameters={}
+2026-06-24 03:23:10 - Mapped to com.techpalle.restcontroller.CartController#updateCart(UpdateCartRequest, HttpServletRequest)
+2026-06-24 03:23:10 - Read "application/json;charset=UTF-8" to [UpdateCartRequest(cartItemId=1, quantity=5)]
+2026-06-24 03:23:10 - API call: Update cart item 1
+2026-06-24 03:23:10 - Updating cart item 1
+2026-06-24 03:23:10 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.id=?
+2026-06-24 03:23:10 - Cart item 1 updated successfully
+2026-06-24 03:23:10 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    where
+        c1_0.id=?
+2026-06-24 03:23:10 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:23:10 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:23:10 - 
+    update
+        cart_items 
+    set
+        cart_id=?,
+        product_id=?,
+        quantity=? 
+    where
+        id=?
+2026-06-24 03:23:10 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:23:10 - Writing [ApiResponse(statusCode=200, message=Cart updated successfully, data=CartDTO(id=1, userId=1, items=[C (truncated)...]
+2026-06-24 03:23:11 - Completed 200 OK
+2026-06-24 03:25:51 - PUT "/api/coupons/SAVE100", parameters={}
+2026-06-24 03:25:51 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:25:51 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:25:51 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:25:51.6 (truncated)...]
+2026-06-24 03:25:51 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-06-24 03:25:51 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:25:59 - GET "/api/coupons/SAVE100", parameters={}
+2026-06-24 03:25:59 - Mapped to com.techpalle.restcontroller.CouponController#validateCoupon(String, HttpServletRequest)
+2026-06-24 03:25:59 - API call: Validate coupon SAVE100
+2026-06-24 03:25:59 - Validating coupon: SAVE100
+2026-06-24 03:25:59 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:25:59 - Coupon not found: SAVE100
+2026-06-24 03:25:59 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleInvalidCouponException(InvalidCouponException, WebRequest)
+2026-06-24 03:25:59 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:25:59 - Writing [ApiResponse(statusCode=400, message=Coupon not found, data=null, timestamp=2026-06-24T03:25:59.76806 (truncated)...]
+2026-06-24 03:25:59 - Resolved [com.techpalle.exception.InvalidCouponException: Coupon not found]
+2026-06-24 03:25:59 - Completed 400 BAD_REQUEST
+2026-06-24 03:30:50 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-24 03:30:50 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 03:30:50 - Graceful shutdown complete
+2026-06-24 03:30:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:30:50 - HikariPool-1 - Shutdown initiated...
+2026-06-24 03:30:50 - HikariPool-1 - Shutdown completed.
+2026-06-24 03:30:50 - Starting Application using Java 21.0.8 with PID 28928 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:30:50 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:30:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:30:51 - Finished Spring Data repository scanning in 63 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:30:51 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:30:51 - Starting service [Tomcat]
+2026-06-24 03:30:51 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:30:51 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:30:51 - Root WebApplicationContext: initialization completed in 1355 ms
+2026-06-24 03:30:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:30:52 - HHH000026: Second-level cache disabled
+2026-06-24 03:30:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:30:52 - HikariPool-2 - Starting...
+2026-06-24 03:30:52 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a15d424
+2026-06-24 03:30:52 - HikariPool-2 - Start completed.
+2026-06-24 03:30:52 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 03:30:52 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 03:30:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:30:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 03:30:53 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 03:30:53 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 03:30:53 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 03:30:53 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 03:30:53 - LiveReload server is running on port 35729
+2026-06-24 03:30:53 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 03:30:53 - Started Application in 3.481 seconds (process running for 1019.901)
+2026-06-24 03:30:53 - Loading initial data...
+2026-06-24 03:30:54 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 03:30:54 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 03:30:54 - Initial data loading completed
+2026-06-24 03:30:54 - Condition evaluation unchanged
+2026-06-24 03:30:58 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-24 03:30:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 03:30:58 - Graceful shutdown complete
+2026-06-24 03:30:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:30:58 - HikariPool-2 - Shutdown initiated...
+2026-06-24 03:30:58 - HikariPool-2 - Shutdown completed.
+2026-06-24 03:30:58 - Starting Application using Java 21.0.8 with PID 28928 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:30:58 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:30:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:30:59 - Finished Spring Data repository scanning in 74 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:31:00 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:31:00 - Starting service [Tomcat]
+2026-06-24 03:31:00 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:31:00 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:31:00 - Root WebApplicationContext: initialization completed in 1433 ms
+2026-06-24 03:31:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:31:00 - HHH000026: Second-level cache disabled
+2026-06-24 03:31:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:31:00 - HikariPool-3 - Starting...
+2026-06-24 03:31:00 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ff630d2
+2026-06-24 03:31:00 - HikariPool-3 - Start completed.
+2026-06-24 03:31:00 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 03:31:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 03:31:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:31:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 03:31:01 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 03:31:02 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 03:31:02 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 03:31:02 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 03:31:02 - LiveReload server is running on port 35729
+2026-06-24 03:31:02 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 03:31:02 - Started Application in 3.661 seconds (process running for 1028.304)
+2026-06-24 03:31:02 - Loading initial data...
+2026-06-24 03:31:02 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 03:31:02 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 03:31:02 - Initial data loading completed
+2026-06-24 03:31:02 - Condition evaluation unchanged
+2026-06-24 03:31:04 - Application shutdown requested.
+2026-06-24 03:31:04 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 03:31:04 - Graceful shutdown complete
+2026-06-24 03:31:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:31:04 - HikariPool-3 - Shutdown initiated...
+2026-06-24 03:31:04 - HikariPool-3 - Shutdown completed.
+2026-06-24 03:33:22 - Starting Application using Java 21.0.8 with PID 10596 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:33:22 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:33:22 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 03:33:22 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 03:33:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:33:24 - Finished Spring Data repository scanning in 236 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:33:26 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:33:26 - Starting service [Tomcat]
+2026-06-24 03:33:26 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:33:26 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:33:26 - Root WebApplicationContext: initialization completed in 4400 ms
+2026-06-24 03:33:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:33:27 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 03:33:27 - HHH000026: Second-level cache disabled
+2026-06-24 03:33:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:33:28 - HikariPool-1 - Starting...
+2026-06-24 03:33:29 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b61f90a
+2026-06-24 03:33:29 - HikariPool-1 - Start completed.
+2026-06-24 03:33:29 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 03:33:32 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 03:33:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:33:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 03:33:34 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 03:33:34 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 03:33:34 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 03:33:34 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 03:33:35 - LiveReload server is running on port 35729
+2026-06-24 03:33:35 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 03:33:35 - Started Application in 14.854 seconds (process running for 16.982)
+2026-06-24 03:33:35 - Loading initial data...
+2026-06-24 03:33:36 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 03:33:36 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 03:33:36 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 03:33:36 - Creating sample coupons...
+2026-06-24 03:33:36 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:33:36 - 
+    insert 
+    into
+        coupons
+        (discount_type, discount_value, expiry_date, code) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:33:36 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:33:36 - 
+    insert 
+    into
+        coupons
+        (discount_type, discount_value, expiry_date, code) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:33:36 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:33:36 - 
+    insert 
+    into
+        coupons
+        (discount_type, discount_value, expiry_date, code) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:33:36 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:33:36 - 
+    insert 
+    into
+        coupons
+        (discount_type, discount_value, expiry_date, code) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:33:36 - Sample coupons created successfully
+2026-06-24 03:33:36 - Initial data loading completed
+2026-06-24 03:34:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 03:34:32 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 03:34:32 - Detected StandardServletMultipartResolver
+2026-06-24 03:34:32 - Detected AcceptHeaderLocaleResolver
+2026-06-24 03:34:32 - Detected FixedThemeResolver
+2026-06-24 03:34:32 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a067799
+2026-06-24 03:34:32 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7983cfaa
+2026-06-24 03:34:32 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 03:34:32 - Completed initialization in 11 ms
+2026-06-24 03:34:32 - GET "/api/coupons/SAVE100", parameters={}
+2026-06-24 03:34:32 - Mapped to com.techpalle.restcontroller.CouponController#validateCoupon(String, HttpServletRequest)
+2026-06-24 03:34:33 - API call: Validate coupon SAVE100
+2026-06-24 03:34:33 - Validating coupon: SAVE100
+2026-06-24 03:34:33 - 
+    select
+        c1_0.code,
+        c1_0.discount_type,
+        c1_0.discount_value,
+        c1_0.expiry_date 
+    from
+        coupons c1_0 
+    where
+        c1_0.code=?
+2026-06-24 03:34:33 - Coupon is valid: SAVE100
+2026-06-24 03:34:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:34:33 - Writing [ApiResponse(statusCode=200, message=Coupon is valid, data=CouponDTO(code=SAVE100, discountType=FLAT, (truncated)...]
+2026-06-24 03:34:33 - Completed 200 OK
+2026-06-24 03:39:35 - POST "/api//api/checkout", parameters={}
+2026-06-24 03:39:35 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:39:35 - Resource not found for path [api/api/checkout]
+2026-06-24 03:39:35 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:39:35 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:39:35 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:39:35.5 (truncated)...]
+2026-06-24 03:39:35 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/api/checkout.]
+2026-06-24 03:39:35 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:40:25 - POST "/api//api/checkout", parameters={}
+2026-06-24 03:40:25 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:40:25 - Resource not found for path [api/api/checkout]
+2026-06-24 03:40:25 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:40:25 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:40:25 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:40:25.6 (truncated)...]
+2026-06-24 03:40:25 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/api/checkout.]
+2026-06-24 03:40:25 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:41:25 - POST "/api//api/checkout", parameters={}
+2026-06-24 03:41:25 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:41:25 - Resource not found for path [api/api/checkout]
+2026-06-24 03:41:25 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:41:25 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:41:25 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:41:25.1 (truncated)...]
+2026-06-24 03:41:25 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/api/checkout.]
+2026-06-24 03:41:25 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:42:29 - POST "/api/checkout", parameters={}
+2026-06-24 03:42:29 - Mapped to com.techpalle.restcontroller.CheckoutController#checkout(CheckoutRequest, HttpServletRequest)
+2026-06-24 03:42:29 - Read "application/json;charset=UTF-8" to [CheckoutRequest(userId=1, couponCode=null)]
+2026-06-24 03:42:29 - API call: Checkout for user 1
+2026-06-24 03:42:29 - Starting checkout for user 1
+2026-06-24 03:42:29 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 03:42:30 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:42:30 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:42:30 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:42:30 - 
+    insert 
+    into
+        orders
+        (created_at, status, total_amount, user_id) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:42:30 - Payment SUCCESS for user 1
+2026-06-24 03:42:30 - 
+    insert 
+    into
+        order_items
+        (order_id, price, product_id, quantity) 
+    values
+        (?, ?, ?, ?)
+2026-06-24 03:42:30 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:42:30 - 
+    update
+        products 
+    set
+        name=?,
+        price=?,
+        stock_quantity=? 
+    where
+        id=?
+2026-06-24 03:42:30 - 
+    delete 
+    from
+        cart_items 
+    where
+        id=?
+2026-06-24 03:42:30 - Checkout completed for user 1 with status SUCCESS
+2026-06-24 03:42:30 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:42:30 - Writing [ApiResponse(statusCode=200, message=Order placed successfully, data=CheckoutResponse(orderId=1, user (truncated)...]
+2026-06-24 03:42:30 - Completed 201 CREATED
+2026-06-24 03:43:55 - POST "/api/checkout", parameters={}
+2026-06-24 03:43:55 - Mapped to com.techpalle.restcontroller.CheckoutController#checkout(CheckoutRequest, HttpServletRequest)
+2026-06-24 03:43:55 - Read "application/json;charset=UTF-8" to [CheckoutRequest(userId=1, couponCode=SAVE10)]
+2026-06-24 03:43:55 - API call: Checkout for user 1
+2026-06-24 03:43:55 - Starting checkout for user 1
+2026-06-24 03:43:55 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 03:43:55 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:43:55 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:43:55 - Empty cart for user 1
+2026-06-24 03:43:55 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleEmptyCartException(EmptyCartException, WebRequest)
+2026-06-24 03:43:55 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:43:55 - Writing [ApiResponse(statusCode=400, message=Cart is empty, data=null, timestamp=2026-06-24T03:43:55.37369590 (truncated)...]
+2026-06-24 03:43:55 - Resolved [com.techpalle.exception.EmptyCartException: Cart is empty]
+2026-06-24 03:43:55 - Completed 400 BAD_REQUEST
+2026-06-24 03:44:22 - POST "/api/checkout", parameters={}
+2026-06-24 03:44:22 - Mapped to com.techpalle.restcontroller.CheckoutController#checkout(CheckoutRequest, HttpServletRequest)
+2026-06-24 03:44:22 - Read "application/json;charset=UTF-8" to [CheckoutRequest(userId=1, couponCode=SAVE100)]
+2026-06-24 03:44:22 - API call: Checkout for user 1
+2026-06-24 03:44:22 - Starting checkout for user 1
+2026-06-24 03:44:22 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-06-24 03:44:22 - 
+    select
+        c1_0.id,
+        c1_0.user_id 
+    from
+        carts c1_0 
+    left join
+        users u1_0 
+            on u1_0.id=c1_0.user_id 
+    where
+        u1_0.id=?
+2026-06-24 03:44:22 - 
+    select
+        ci1_0.cart_id,
+        ci1_0.id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.cart_id=?
+2026-06-24 03:44:22 - Empty cart for user 1
+2026-06-24 03:44:22 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleEmptyCartException(EmptyCartException, WebRequest)
+2026-06-24 03:44:22 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:44:22 - Writing [ApiResponse(statusCode=400, message=Cart is empty, data=null, timestamp=2026-06-24T03:44:22.25893550 (truncated)...]
+2026-06-24 03:44:22 - Resolved [com.techpalle.exception.EmptyCartException: Cart is empty]
+2026-06-24 03:44:22 - Completed 400 BAD_REQUEST
+2026-06-24 03:47:03 - POST "/api/orders/users/1", parameters={}
+2026-06-24 03:47:03 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:47:03 - Resource not found for path [api/orders/users/1]
+2026-06-24 03:47:03 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:47:03 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:47:03 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:47:03.0 (truncated)...]
+2026-06-24 03:47:03 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/orders/users/1.]
+2026-06-24 03:47:03 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:47:09 - POST "/api/orders/users/2", parameters={}
+2026-06-24 03:47:09 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:47:09 - Resource not found for path [api/orders/users/2]
+2026-06-24 03:47:09 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:47:09 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:47:09 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:47:09.8 (truncated)...]
+2026-06-24 03:47:09 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/orders/users/2.]
+2026-06-24 03:47:09 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:47:20 - GET "/api/orders/users/1", parameters={}
+2026-06-24 03:47:20 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 03:47:20 - Resource not found for path [api/orders/users/1]
+2026-06-24 03:47:20 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:47:20 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:47:20 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:47:20.0 (truncated)...]
+2026-06-24 03:47:20 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/orders/users/1.]
+2026-06-24 03:47:20 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:47:33 - GET "/api/orders/user/1", parameters={}
+2026-06-24 03:47:33 - Mapped to com.techpalle.restcontroller.OrderController#getOrderHistory(Long, Pageable, HttpServletRequest)
+2026-06-24 03:47:33 - API call: Fetch order history for user 1
+2026-06-24 03:47:33 - Fetching order history for user 1
+2026-06-24 03:47:33 - 
+    select
+        o1_0.id,
+        o1_0.created_at,
+        o1_0.status,
+        o1_0.total_amount,
+        o1_0.user_id 
+    from
+        orders o1_0 
+    left join
+        users u1_0 
+            on u1_0.id=o1_0.user_id 
+    where
+        u1_0.id=? 
+    order by
+        o1_0.created_at desc 
+    limit
+        ?
+2026-06-24 03:47:33 - 
+    select
+        oi1_0.order_id,
+        oi1_0.id,
+        oi1_0.price,
+        oi1_0.product_id,
+        oi1_0.quantity 
+    from
+        order_items oi1_0 
+    where
+        oi1_0.order_id=?
+2026-06-24 03:47:33 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:47:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:47:33 - Writing [ApiResponse(statusCode=200, message=Order history fetched successfully, data=Page 1 of 1 containing  (truncated)...]
+2026-06-24 03:47:33 - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-24 03:47:33 - Completed 200 OK
+2026-06-24 03:48:52 - GET "/api/orders/1", parameters={}
+2026-06-24 03:48:52 - Mapped to com.techpalle.restcontroller.OrderController#getOrderById(Long, HttpServletRequest)
+2026-06-24 03:48:52 - API call: Fetch order 1
+2026-06-24 03:48:52 - Fetching order by ID 1
+2026-06-24 03:48:52 - 
+    select
+        o1_0.id,
+        o1_0.created_at,
+        o1_0.status,
+        o1_0.total_amount,
+        o1_0.user_id 
+    from
+        orders o1_0 
+    where
+        o1_0.id=?
+2026-06-24 03:48:52 - 
+    select
+        oi1_0.order_id,
+        oi1_0.id,
+        oi1_0.price,
+        oi1_0.product_id,
+        oi1_0.quantity 
+    from
+        order_items oi1_0 
+    where
+        oi1_0.order_id=?
+2026-06-24 03:48:52 - 
+    select
+        p1_0.id,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity 
+    from
+        products p1_0 
+    where
+        p1_0.id=?
+2026-06-24 03:48:52 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:48:52 - Writing [ApiResponse(statusCode=200, message=Order fetched successfully, data=OrderDTO(id=1, userId=1, totalA (truncated)...]
+2026-06-24 03:48:52 - Completed 200 OK
+2026-06-24 03:56:07 - GET "/swagger-ui/index.html", parameters={}
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - GET "/swagger-ui/swagger-ui.css", parameters={}
+2026-06-24 03:56:07 - GET "/swagger-ui/index.css", parameters={}
+2026-06-24 03:56:07 - GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2026-06-24 03:56:07 - GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 03:56:07 - GET "/swagger-ui/favicon-32x32.png", parameters={}
+2026-06-24 03:56:07 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 03:56:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 03:56:07 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 03:56:07 - Completed 200 OK
+2026-06-24 03:56:07 - GET "/v3/api-docs", parameters={}
+2026-06-24 03:56:07 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 03:56:08 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:56:08 - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:56:08 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:56:08.1 (truncated)...]
+2026-06-24 03:56:08 - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2026-06-24 03:56:08 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:56:42 - GET "/swagger-ui.html", parameters={}
+2026-06-24 03:56:42 - Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2026-06-24 03:56:42 - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:56:42 - Nothing to write: null body
+2026-06-24 03:56:42 - Completed 302 FOUND
+2026-06-24 03:56:42 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 03:56:42 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 03:56:42 - Completed 200 OK
+2026-06-24 03:56:42 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 03:56:42 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 03:56:42 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 03:56:42 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 03:56:42 - Completed 200 OK
+2026-06-24 03:56:42 - GET "/v3/api-docs", parameters={}
+2026-06-24 03:56:42 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 03:56:42 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 03:56:42 - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 03:56:42 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T03:56:42.3 (truncated)...]
+2026-06-24 03:56:42 - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2026-06-24 03:56:42 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 03:59:45 - Application shutdown requested.
+2026-06-24 03:59:45 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 03:59:45 - Graceful shutdown complete
+2026-06-24 03:59:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 03:59:45 - HikariPool-1 - Shutdown initiated...
+2026-06-24 03:59:45 - HikariPool-1 - Shutdown completed.
+2026-06-24 03:59:57 - Starting Application using Java 21.0.8 with PID 15440 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 03:59:57 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 03:59:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 03:59:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 03:59:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 03:59:58 - Finished Spring Data repository scanning in 46 ms. Found 7 JPA repository interfaces.
+2026-06-24 03:59:58 - Tomcat initialized with port 9090 (http)
+2026-06-24 03:59:58 - Starting service [Tomcat]
+2026-06-24 03:59:58 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 03:59:58 - Initializing Spring embedded WebApplicationContext
+2026-06-24 03:59:58 - Root WebApplicationContext: initialization completed in 1021 ms
+2026-06-24 03:59:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 03:59:58 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 03:59:58 - HHH000026: Second-level cache disabled
+2026-06-24 03:59:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 03:59:59 - HikariPool-1 - Starting...
+2026-06-24 03:59:59 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7842a68f
+2026-06-24 03:59:59 - HikariPool-1 - Start completed.
+2026-06-24 03:59:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:00:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:00:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:00:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:00:00 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:00:00 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 04:00:00 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:00:00 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:00:00 - LiveReload server is running on port 35729
+2026-06-24 04:00:00 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:00:00 - Started Application in 3.498 seconds (process running for 3.992)
+2026-06-24 04:00:00 - Loading initial data...
+2026-06-24 04:00:01 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:00:01 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:00:01 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:00:01 - Initial data loading completed
+2026-06-24 04:00:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 04:00:28 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 04:00:28 - Detected StandardServletMultipartResolver
+2026-06-24 04:00:28 - Detected AcceptHeaderLocaleResolver
+2026-06-24 04:00:28 - Detected FixedThemeResolver
+2026-06-24 04:00:28 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@145c7c65
+2026-06-24 04:00:28 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6323e931
+2026-06-24 04:00:28 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 04:00:28 - Completed initialization in 3 ms
+2026-06-24 04:00:28 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:00:28 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 04:00:29 - Completed 200 OK
+2026-06-24 04:00:29 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 04:00:29 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 04:00:29 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 04:00:29 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 04:00:29 - Completed 200 OK
+2026-06-24 04:00:29 - GET "/v3/api-docs", parameters={}
+2026-06-24 04:00:29 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 04:00:29 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:00:29 - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:00:29 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:00:29.3 (truncated)...]
+2026-06-24 04:00:29 - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2026-06-24 04:00:29 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:02:32 - Application shutdown requested.
+2026-06-24 04:02:32 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:02:32 - Graceful shutdown complete
+2026-06-24 04:02:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:02:32 - HikariPool-1 - Shutdown initiated...
+2026-06-24 04:02:32 - HikariPool-1 - Shutdown completed.
+2026-06-24 04:03:25 - Starting Application using Java 21.0.8 with PID 27284 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 04:03:25 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 04:03:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 04:03:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 04:03:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 04:03:26 - Finished Spring Data repository scanning in 44 ms. Found 7 JPA repository interfaces.
+2026-06-24 04:03:26 - Tomcat initialized with port 9090 (http)
+2026-06-24 04:03:26 - Starting service [Tomcat]
+2026-06-24 04:03:26 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 04:03:26 - Initializing Spring embedded WebApplicationContext
+2026-06-24 04:03:26 - Root WebApplicationContext: initialization completed in 1358 ms
+2026-06-24 04:03:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 04:03:26 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 04:03:27 - HHH000026: Second-level cache disabled
+2026-06-24 04:03:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 04:03:27 - HikariPool-1 - Starting...
+2026-06-24 04:03:27 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e413c95
+2026-06-24 04:03:27 - HikariPool-1 - Start completed.
+2026-06-24 04:03:27 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:03:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:03:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:03:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:03:28 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:03:29 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 04:03:29 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:03:29 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:03:29 - LiveReload server is running on port 35729
+2026-06-24 04:03:29 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:03:29 - Started Application in 4.155 seconds (process running for 4.769)
+2026-06-24 04:03:29 - Loading initial data...
+2026-06-24 04:03:29 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:03:29 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:03:29 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:03:29 - Initial data loading completed
+2026-06-24 04:04:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 04:04:58 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 04:04:58 - Detected StandardServletMultipartResolver
+2026-06-24 04:04:58 - Detected AcceptHeaderLocaleResolver
+2026-06-24 04:04:58 - Detected FixedThemeResolver
+2026-06-24 04:04:58 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@32d38c9
+2026-06-24 04:04:58 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7dc21130
+2026-06-24 04:04:58 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 04:04:58 - Completed initialization in 3 ms
+2026-06-24 04:04:58 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:04:58 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 04:04:58 - Completed 200 OK
+2026-06-24 04:04:58 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 04:04:58 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 04:04:58 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 04:04:58 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 04:04:58 - Completed 200 OK
+2026-06-24 04:04:58 - GET "/v3/api-docs", parameters={}
+2026-06-24 04:04:58 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 04:04:58 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:04:58 - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:04:58 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:04:58.6 (truncated)...]
+2026-06-24 04:04:58 - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2026-06-24 04:04:58 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:07:16 - Application shutdown requested.
+2026-06-24 04:07:16 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:07:16 - Graceful shutdown complete
+2026-06-24 04:07:16 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:07:16 - HikariPool-1 - Shutdown initiated...
+2026-06-24 04:07:16 - HikariPool-1 - Shutdown completed.
+2026-06-24 04:07:54 - Starting Application using Java 21.0.8 with PID 14344 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 04:07:54 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 04:07:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 04:07:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 04:07:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 04:07:55 - Finished Spring Data repository scanning in 46 ms. Found 7 JPA repository interfaces.
+2026-06-24 04:07:56 - Tomcat initialized with port 9090 (http)
+2026-06-24 04:07:56 - Starting service [Tomcat]
+2026-06-24 04:07:56 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 04:07:56 - Initializing Spring embedded WebApplicationContext
+2026-06-24 04:07:56 - Root WebApplicationContext: initialization completed in 1133 ms
+2026-06-24 04:07:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 04:07:56 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 04:07:56 - HHH000026: Second-level cache disabled
+2026-06-24 04:07:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 04:07:56 - HikariPool-1 - Starting...
+2026-06-24 04:07:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@527e126c
+2026-06-24 04:07:56 - HikariPool-1 - Start completed.
+2026-06-24 04:07:56 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:07:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:07:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:07:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:07:57 - 11 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:07:58 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-06-24 04:07:58 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:07:58 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:07:58 - LiveReload server is running on port 35729
+2026-06-24 04:07:58 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:07:58 - Started Application in 3.56 seconds (process running for 4.072)
+2026-06-24 04:07:58 - Loading initial data...
+2026-06-24 04:07:58 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:07:58 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:07:58 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:07:58 - Initial data loading completed
+2026-06-24 04:08:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 04:08:12 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 04:08:12 - Detected StandardServletMultipartResolver
+2026-06-24 04:08:12 - Detected AcceptHeaderLocaleResolver
+2026-06-24 04:08:12 - Detected FixedThemeResolver
+2026-06-24 04:08:12 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b492870
+2026-06-24 04:08:12 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5e3c9db7
+2026-06-24 04:08:12 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 04:08:12 - Completed initialization in 4 ms
+2026-06-24 04:08:12 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:08:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 04:08:12 - Resource not found for path [swagger-ui/swagger-initializer.js]
+2026-06-24 04:08:12 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:08:12 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:08:12 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:08:12.3 (truncated)...]
+2026-06-24 04:08:12 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/swagger-initializer.js.]
+2026-06-24 04:08:12 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:08:17 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:08:17 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 04:08:17 - Resource not found for path [swagger-ui/swagger-initializer.js]
+2026-06-24 04:08:17 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:08:17 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:08:17 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:08:17.9 (truncated)...]
+2026-06-24 04:08:17 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/swagger-initializer.js.]
+2026-06-24 04:08:17 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:08:55 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:08:55 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-06-24 04:08:55 - Resource not found for path [swagger-ui/swagger-initializer.js]
+2026-06-24 04:08:55 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:08:55 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:08:55 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:08:55.5 (truncated)...]
+2026-06-24 04:08:55 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/swagger-initializer.js.]
+2026-06-24 04:08:55 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:11:02 - Application shutdown requested.
+2026-06-24 04:11:02 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:11:02 - Graceful shutdown complete
+2026-06-24 04:11:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:11:02 - HikariPool-1 - Shutdown initiated...
+2026-06-24 04:11:02 - HikariPool-1 - Shutdown completed.
+2026-06-24 04:14:18 - Starting Application using Java 21.0.8 with PID 25880 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 04:14:18 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 04:14:18 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 04:14:18 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 04:14:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 04:14:19 - Finished Spring Data repository scanning in 48 ms. Found 7 JPA repository interfaces.
+2026-06-24 04:14:19 - Tomcat initialized with port 9090 (http)
+2026-06-24 04:14:19 - Starting service [Tomcat]
+2026-06-24 04:14:19 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 04:14:19 - Initializing Spring embedded WebApplicationContext
+2026-06-24 04:14:19 - Root WebApplicationContext: initialization completed in 1170 ms
+2026-06-24 04:14:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 04:14:20 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 04:14:20 - HHH000026: Second-level cache disabled
+2026-06-24 04:14:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 04:14:20 - HikariPool-1 - Starting...
+2026-06-24 04:14:20 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62a12041
+2026-06-24 04:14:20 - HikariPool-1 - Start completed.
+2026-06-24 04:14:20 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:14:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:14:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:14:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:14:21 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:14:21 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 04:14:21 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:14:21 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:14:22 - Unable to start LiveReload server
+2026-06-24 04:14:22 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:14:22 - Started Application in 3.672 seconds (process running for 4.201)
+2026-06-24 04:14:22 - Loading initial data...
+2026-06-24 04:14:22 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:14:22 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:14:22 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:14:22 - Initial data loading completed
+2026-06-24 04:14:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 04:14:32 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 04:14:32 - Detected StandardServletMultipartResolver
+2026-06-24 04:14:32 - Detected AcceptHeaderLocaleResolver
+2026-06-24 04:14:32 - Detected FixedThemeResolver
+2026-06-24 04:14:32 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3fac5bc1
+2026-06-24 04:14:32 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@65bb61ba
+2026-06-24 04:14:32 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 04:14:32 - Completed initialization in 2 ms
+2026-06-24 04:14:32 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:14:32 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 04:14:32 - Completed 200 OK
+2026-06-24 04:14:32 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 04:14:32 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 04:14:32 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 04:14:32 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 04:14:32 - Completed 200 OK
+2026-06-24 04:14:32 - GET "/v3/api-docs", parameters={}
+2026-06-24 04:14:32 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 04:14:33 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2026-06-24 04:14:33 - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:14:33 - Writing [ApiResponse(statusCode=500, message=Something went wrong, data=null, timestamp=2026-06-24T04:14:33.2 (truncated)...]
+2026-06-24 04:14:33 - Resolved [jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)']
+2026-06-24 04:14:33 - Completed 500 INTERNAL_SERVER_ERROR
+2026-06-24 04:16:42 - Application shutdown requested.
+2026-06-24 04:16:42 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:16:42 - Graceful shutdown complete
+2026-06-24 04:16:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:16:42 - HikariPool-1 - Shutdown initiated...
+2026-06-24 04:16:42 - HikariPool-1 - Shutdown completed.
+2026-06-24 04:19:38 - Starting Application using Java 21.0.8 with PID 2012 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 04:19:38 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 04:19:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-24 04:19:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-24 04:19:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 04:19:39 - Finished Spring Data repository scanning in 45 ms. Found 7 JPA repository interfaces.
+2026-06-24 04:19:39 - Tomcat initialized with port 9090 (http)
+2026-06-24 04:19:39 - Starting service [Tomcat]
+2026-06-24 04:19:39 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 04:19:39 - Initializing Spring embedded WebApplicationContext
+2026-06-24 04:19:39 - Root WebApplicationContext: initialization completed in 982 ms
+2026-06-24 04:19:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 04:19:39 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 04:19:39 - HHH000026: Second-level cache disabled
+2026-06-24 04:19:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 04:19:40 - HikariPool-1 - Starting...
+2026-06-24 04:19:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d204daa
+2026-06-24 04:19:40 - HikariPool-1 - Start completed.
+2026-06-24 04:19:40 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:19:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:19:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:19:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:19:41 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:19:41 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 04:19:41 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:19:41 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:19:42 - LiveReload server is running on port 35729
+2026-06-24 04:19:42 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:19:42 - Started Application in 3.621 seconds (process running for 4.209)
+2026-06-24 04:19:42 - Loading initial data...
+2026-06-24 04:19:42 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:19:42 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:19:42 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:19:42 - Initial data loading completed
+2026-06-24 04:20:38 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-24 04:20:38 - Initializing Servlet 'dispatcherServlet'
+2026-06-24 04:20:38 - Detected StandardServletMultipartResolver
+2026-06-24 04:20:38 - Detected AcceptHeaderLocaleResolver
+2026-06-24 04:20:38 - Detected FixedThemeResolver
+2026-06-24 04:20:38 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5659670c
+2026-06-24 04:20:38 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@31f33dc
+2026-06-24 04:20:38 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-24 04:20:38 - Completed initialization in 3 ms
+2026-06-24 04:20:38 - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2026-06-24 04:20:38 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-06-24 04:20:38 - Completed 200 OK
+2026-06-24 04:20:38 - GET "/v3/api-docs/swagger-config", parameters={}
+2026-06-24 04:20:38 - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-06-24 04:20:38 - Using 'application/json', given [*/*] and supported [application/json]
+2026-06-24 04:20:38 - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2026-06-24 04:20:38 - Completed 200 OK
+2026-06-24 04:20:38 - GET "/v3/api-docs", parameters={}
+2026-06-24 04:20:38 - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-06-24 04:20:39 - Init duration for springdoc-openapi is: 453 ms
+2026-06-24 04:20:39 - Using 'application/json', given [application/json, */*] and supported [application/json]
+2026-06-24 04:20:39 - Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 49, 46, 48, 34, 44, 34, 105, 110, 10 (truncated)...]
+2026-06-24 04:20:39 - Completed 200 OK
+2026-06-24 04:22:15 - PUT "/api/cart", parameters={}
+2026-06-24 04:22:15 - Mapped to com.techpalle.restcontroller.CartController#updateCart(UpdateCartRequest, HttpServletRequest)
+2026-06-24 04:22:15 - Read "application/json;charset=UTF-8" to [UpdateCartRequest(cartItemId=9007199254740991, quantity=1073741824)]
+2026-06-24 04:22:15 - API call: Update cart item 9007199254740991
+2026-06-24 04:22:15 - Updating cart item 9007199254740991
+2026-06-24 04:22:15 - 
+    select
+        ci1_0.id,
+        ci1_0.cart_id,
+        ci1_0.product_id,
+        ci1_0.quantity 
+    from
+        cart_items ci1_0 
+    where
+        ci1_0.id=?
+2026-06-24 04:22:15 - Cart item not found: 9007199254740991
+2026-06-24 04:22:15 - Using @ExceptionHandler com.techpalle.exception.GlobalExceptionHandler#handleResourceNotFoundException(ResourceNotFoundException, WebRequest)
+2026-06-24 04:22:15 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-24 04:22:15 - Writing [ApiResponse(statusCode=404, message=Cart item not found, data=null, timestamp=2026-06-24T04:22:15.14 (truncated)...]
+2026-06-24 04:22:15 - Resolved [com.techpalle.exception.ResourceNotFoundException: Cart item not found]
+2026-06-24 04:22:15 - Completed 404 NOT_FOUND
+2026-06-24 04:24:36 - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2026-06-24 04:24:36 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:24:36 - Graceful shutdown complete
+2026-06-24 04:24:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:24:36 - HikariPool-1 - Shutdown initiated...
+2026-06-24 04:24:36 - HikariPool-1 - Shutdown completed.
+2026-06-24 04:24:36 - Starting Application using Java 21.0.8 with PID 2012 (R:\Workspace_Project\03-ECommerceCartCheckoutModule\target\classes started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 04:24:36 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 04:24:36 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 04:24:36 - Finished Spring Data repository scanning in 14 ms. Found 7 JPA repository interfaces.
+2026-06-24 04:24:36 - Tomcat initialized with port 9090 (http)
+2026-06-24 04:24:36 - Starting service [Tomcat]
+2026-06-24 04:24:36 - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-24 04:24:36 - Initializing Spring embedded WebApplicationContext
+2026-06-24 04:24:36 - Root WebApplicationContext: initialization completed in 328 ms
+2026-06-24 04:24:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 04:24:36 - HHH000026: Second-level cache disabled
+2026-06-24 04:24:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 04:24:36 - HikariPool-2 - Starting...
+2026-06-24 04:24:36 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f26b70e
+2026-06-24 04:24:36 - HikariPool-2 - Start completed.
+2026-06-24 04:24:36 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 04:24:37 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 04:24:37 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:24:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 04:24:37 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 04:24:37 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 04:24:37 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 04:24:37 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 04:24:37 - LiveReload server is running on port 35729
+2026-06-24 04:24:37 - Tomcat started on port 9090 (http) with context path '/'
+2026-06-24 04:24:37 - Started Application in 0.769 seconds (process running for 299.463)
+2026-06-24 04:24:37 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 04:24:37 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 04:24:37 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 04:24:37 - Condition evaluation unchanged
+2026-06-24 04:25:05 - Application shutdown requested.
+2026-06-24 04:25:05 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 04:25:05 - Graceful shutdown complete
+2026-06-24 04:25:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 04:25:05 - HikariPool-2 - Shutdown initiated...
+2026-06-24 04:25:05 - HikariPool-2 - Shutdown completed.
+2026-06-24 11:22:05 - Starting ApplicationTests using Java 21.0.8 with PID 17636 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 11:22:05 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 11:22:05 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@33a053d
+2026-06-24 11:22:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 11:22:06 - Finished Spring Data repository scanning in 132 ms. Found 7 JPA repository interfaces.
+2026-06-24 11:22:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 11:22:07 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 11:22:07 - HHH000026: Second-level cache disabled
+2026-06-24 11:22:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 11:22:08 - HikariPool-1 - Starting...
+2026-06-24 11:22:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a48c398
+2026-06-24 11:22:09 - HikariPool-1 - Start completed.
+2026-06-24 11:22:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 11:22:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 11:22:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:22:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 11:22:11 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 11:22:12 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 11:22:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 11:22:12 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 11:22:12 - Started ApplicationTests in 7.838 seconds (process running for 9.715)
+2026-06-24 11:22:12 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 11:22:12 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 11:22:12 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 11:22:14 - Starting checkout for user 1
+2026-06-24 11:22:14 - Empty cart for user 1
+2026-06-24 11:22:14 - Starting checkout for user 1
+2026-06-24 11:22:14 - Payment FAILED for user 1
+2026-06-24 11:22:14 - Starting checkout for user 99
+2026-06-24 11:22:14 - User not found: 99
+2026-06-24 11:22:14 - Starting checkout for user 1
+2026-06-24 11:22:14 - Payment FAILED for user 1
+2026-06-24 11:22:14 - Starting checkout for user 1
+2026-06-24 11:22:14 - Insufficient stock for product 1
+2026-06-24 11:22:14 - Starting checkout for user 1
+2026-06-24 11:22:14 - Applying coupon SAVE10
+2026-06-24 11:22:14 - Calculating discount for coupon: SAVE10
+2026-06-24 11:22:14 - Calculating discount for coupon: INVALID
+2026-06-24 11:22:14 - Invalid discount type: null
+2026-06-24 11:22:14 - Validating coupon: INVALID
+2026-06-24 11:22:14 - Coupon not found: INVALID
+2026-06-24 11:22:14 - Validating coupon: SAVE10
+2026-06-24 11:22:14 - Coupon is valid: SAVE10
+2026-06-24 11:22:14 - Validating coupon: EXPIRED
+2026-06-24 11:22:14 - Coupon expired: EXPIRED
+2026-06-24 11:22:15 - Calculating discount for coupon: SAVE10
+2026-06-24 11:22:15 - Calculating discount for coupon: FLAT50
+2026-06-24 11:22:15 - Adding product 1 to cart for user 1
+2026-06-24 11:22:15 - Adding new item to cart. Product ID: 1
+2026-06-24 11:22:15 - Adding product 1 to cart for user 999
+2026-06-24 11:22:15 - User not found with ID 999
+2026-06-24 11:22:15 - Clearing cart for user 1
+2026-06-24 11:22:15 - Cart cleared successfully for user 1
+2026-06-24 11:22:15 - Updating cart item 999
+2026-06-24 11:22:15 - Cart item not found: 999
+2026-06-24 11:22:15 - Fetching cart for user 999
+2026-06-24 11:22:15 - Cart not found for user 999
+2026-06-24 11:22:15 - Removing cart item 1
+2026-06-24 11:22:15 - Cart item 1 removed successfully
+2026-06-24 11:22:15 - Fetching cart for user 1
+2026-06-24 11:22:15 - Updating cart item 1
+2026-06-24 11:22:15 - Cart item 1 updated successfully
+2026-06-24 11:22:15 - Adding product 999 to cart for user 1
+2026-06-24 11:22:15 - Product not found with ID 999
+2026-06-24 11:22:15 - Fetching order by ID 1
+2026-06-24 11:22:15 - Fetching order by ID 99
+2026-06-24 11:22:15 - Order not found: 99
+2026-06-24 11:22:15 - Fetching order history for user 1
+2026-06-24 11:22:15 - Fetching order by ID 1
+2026-06-24 11:22:15 - Fetching order history for user 1
+2026-06-24 11:22:15 - Closing org.springframework.web.context.support.GenericWebApplicationContext@33a053d, started on Wed Jun 24 11:22:05 IST 2026
+2026-06-24 11:22:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:22:15 - HikariPool-1 - Shutdown initiated...
+2026-06-24 11:22:15 - HikariPool-1 - Shutdown completed.
+2026-06-24 11:48:59 - Starting ApplicationTests using Java 21.0.8 with PID 23184 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 11:48:59 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 11:49:00 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@230a73f2
+2026-06-24 11:49:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 11:49:03 - Finished Spring Data repository scanning in 242 ms. Found 7 JPA repository interfaces.
+2026-06-24 11:49:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 11:49:05 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 11:49:05 - HHH000026: Second-level cache disabled
+2026-06-24 11:49:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 11:49:06 - HikariPool-1 - Starting...
+2026-06-24 11:49:08 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42ac309
+2026-06-24 11:49:08 - HikariPool-1 - Start completed.
+2026-06-24 11:49:08 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 11:49:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 11:49:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:49:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 11:49:15 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 11:49:15 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 11:49:15 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 11:49:16 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 11:49:16 - Started ApplicationTests in 18.185 seconds (process running for 28.048)
+2026-06-24 11:49:17 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 11:49:17 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 11:49:17 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 11:49:18 - Adding product 1 to cart for user 1
+2026-06-24 11:49:18 - Adding new item to cart. Product ID: 1
+2026-06-24 11:49:18 - Product successfully added to cart for user 1
+2026-06-24 11:49:18 - Adding product 1 to cart for user 999
+2026-06-24 11:49:18 - User not found with ID 999
+2026-06-24 11:49:18 - Clearing cart for user 1
+2026-06-24 11:49:18 - Cart cleared successfully for user 1
+2026-06-24 11:49:18 - Updating cart item 999
+2026-06-24 11:49:18 - Cart item not found: 999
+2026-06-24 11:49:18 - Fetching cart for user 999
+2026-06-24 11:49:18 - Cart not found for user 999
+2026-06-24 11:49:18 - Removing cart item 1
+2026-06-24 11:49:18 - Cart item 1 removed successfully
+2026-06-24 11:49:18 - Fetching cart for user 1
+2026-06-24 11:49:18 - Updating cart item 1
+2026-06-24 11:49:18 - Cart item 1 updated successfully
+2026-06-24 11:49:18 - Adding product 999 to cart for user 1
+2026-06-24 11:49:18 - Product not found with ID 999
+2026-06-24 11:49:18 - Fetching order by ID 1
+2026-06-24 11:49:18 - Fetching order by ID 99
+2026-06-24 11:49:18 - Order not found: 99
+2026-06-24 11:49:18 - Fetching order history for user 1
+2026-06-24 11:49:18 - Fetching order by ID 1
+2026-06-24 11:49:18 - Fetching order history for user 1
+2026-06-24 11:49:18 - Closing org.springframework.web.context.support.GenericWebApplicationContext@230a73f2, started on Wed Jun 24 11:49:00 IST 2026
+2026-06-24 11:49:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:49:18 - HikariPool-1 - Shutdown initiated...
+2026-06-24 11:49:18 - HikariPool-1 - Shutdown completed.
+2026-06-24 11:56:07 - Starting ApplicationTests using Java 21.0.8 with PID 18184 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 11:56:07 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 11:56:07 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ed49a7f
+2026-06-24 11:56:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 11:56:11 - Finished Spring Data repository scanning in 213 ms. Found 7 JPA repository interfaces.
+2026-06-24 11:56:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 11:56:13 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 11:56:13 - HHH000026: Second-level cache disabled
+2026-06-24 11:56:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 11:56:14 - HikariPool-1 - Starting...
+2026-06-24 11:56:15 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a012678
+2026-06-24 11:56:15 - HikariPool-1 - Start completed.
+2026-06-24 11:56:16 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 11:56:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 11:56:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:56:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 11:56:22 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 11:56:23 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 11:56:23 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 11:56:23 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 11:56:24 - Started ApplicationTests in 18.366 seconds (process running for 28.079)
+2026-06-24 11:56:25 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 11:56:25 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 11:56:25 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 11:56:25 - Adding product 1 to cart for user 1
+2026-06-24 11:56:25 - Adding new item to cart. Product ID: 1
+2026-06-24 11:56:25 - Product successfully added to cart for user 1
+2026-06-24 11:56:25 - Adding product 1 to cart for user 999
+2026-06-24 11:56:25 - User not found with ID 999
+2026-06-24 11:56:25 - Clearing cart for user 1
+2026-06-24 11:56:25 - Cart cleared successfully for user 1
+2026-06-24 11:56:25 - Updating cart item 999
+2026-06-24 11:56:25 - Cart item not found: 999
+2026-06-24 11:56:25 - Fetching cart for user 999
+2026-06-24 11:56:25 - Cart not found for user 999
+2026-06-24 11:56:25 - Removing cart item 1
+2026-06-24 11:56:25 - Cart item 1 removed successfully
+2026-06-24 11:56:25 - Fetching cart for user 1
+2026-06-24 11:56:25 - Updating cart item 1
+2026-06-24 11:56:25 - Cart item 1 updated successfully
+2026-06-24 11:56:25 - Adding product 999 to cart for user 1
+2026-06-24 11:56:25 - Product not found with ID 999
+2026-06-24 11:56:25 - Fetching order by ID 1
+2026-06-24 11:56:25 - Fetching order by ID 99
+2026-06-24 11:56:25 - Order not found: 99
+2026-06-24 11:56:25 - Fetching order history for user 1
+2026-06-24 11:56:25 - Fetching order by ID 1
+2026-06-24 11:56:25 - Fetching order history for user 1
+2026-06-24 11:56:25 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7ed49a7f, started on Wed Jun 24 11:56:07 IST 2026
+2026-06-24 11:56:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 11:56:25 - HikariPool-1 - Shutdown initiated...
+2026-06-24 11:56:25 - HikariPool-1 - Shutdown completed.
+2026-06-24 12:03:56 - Starting ApplicationTests using Java 21.0.8 with PID 24024 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 12:03:56 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 12:03:57 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@14fc9bd
+2026-06-24 12:04:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 12:04:00 - Finished Spring Data repository scanning in 242 ms. Found 7 JPA repository interfaces.
+2026-06-24 12:04:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 12:04:02 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 12:04:02 - HHH000026: Second-level cache disabled
+2026-06-24 12:04:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 12:04:03 - HikariPool-1 - Starting...
+2026-06-24 12:04:04 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c4354d
+2026-06-24 12:04:04 - HikariPool-1 - Start completed.
+2026-06-24 12:04:04 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 12:04:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 12:04:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:04:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 12:04:10 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 12:04:11 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 12:04:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 12:04:11 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 12:04:12 - Started ApplicationTests in 16.499 seconds (process running for 26.71)
+2026-06-24 12:04:13 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 12:04:13 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 12:04:13 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 12:04:13 - Adding product 1 to cart for user 1
+2026-06-24 12:04:13 - Adding new item to cart. Product ID: 1
+2026-06-24 12:04:13 - Product successfully added to cart for user 1
+2026-06-24 12:04:13 - Adding product 1 to cart for user 999
+2026-06-24 12:04:13 - User not found with ID 999
+2026-06-24 12:04:13 - Clearing cart for user 1
+2026-06-24 12:04:13 - Cart cleared successfully for user 1
+2026-06-24 12:04:13 - Updating cart item 999
+2026-06-24 12:04:13 - Cart item not found: 999
+2026-06-24 12:04:13 - Fetching cart for user 999
+2026-06-24 12:04:13 - Cart not found for user 999
+2026-06-24 12:04:13 - Removing cart item 1
+2026-06-24 12:04:13 - Cart item 1 removed successfully
+2026-06-24 12:04:13 - Fetching cart for user 1
+2026-06-24 12:04:13 - Updating cart item 1
+2026-06-24 12:04:13 - Cart item 1 updated successfully
+2026-06-24 12:04:13 - Adding product 999 to cart for user 1
+2026-06-24 12:04:13 - Product not found with ID 999
+2026-06-24 12:04:13 - Fetching order by ID 1
+2026-06-24 12:04:13 - Fetching order by ID 99
+2026-06-24 12:04:13 - Order not found: 99
+2026-06-24 12:04:13 - Fetching order history for user 1
+2026-06-24 12:04:13 - Fetching order by ID 1
+2026-06-24 12:04:13 - Fetching order history for user 1
+2026-06-24 12:04:13 - Closing org.springframework.web.context.support.GenericWebApplicationContext@14fc9bd, started on Wed Jun 24 12:03:57 IST 2026
+2026-06-24 12:04:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:04:13 - HikariPool-1 - Shutdown initiated...
+2026-06-24 12:04:13 - HikariPool-1 - Shutdown completed.
+2026-06-24 12:21:58 - Starting ApplicationTests using Java 21.0.8 with PID 7656 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 12:21:58 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 12:21:59 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@33a053d
+2026-06-24 12:22:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 12:22:02 - Finished Spring Data repository scanning in 232 ms. Found 7 JPA repository interfaces.
+2026-06-24 12:22:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 12:22:04 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 12:22:05 - HHH000026: Second-level cache disabled
+2026-06-24 12:22:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 12:22:06 - HikariPool-1 - Starting...
+2026-06-24 12:22:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eb6037d
+2026-06-24 12:22:07 - HikariPool-1 - Start completed.
+2026-06-24 12:22:08 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 12:22:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 12:22:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:22:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 12:22:14 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 12:22:14 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 12:22:14 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 12:22:14 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 12:22:15 - Started ApplicationTests in 18.157 seconds (process running for 22.118)
+2026-06-24 12:22:16 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 12:22:16 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 12:22:16 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 12:22:20 - Starting checkout for user 1
+2026-06-24 12:22:20 - Empty cart for user 1
+2026-06-24 12:22:20 - Starting checkout for user 1
+2026-06-24 12:22:20 - Payment SUCCESS for user 1
+2026-06-24 12:22:20 - Starting checkout for user 99
+2026-06-24 12:22:20 - User not found: 99
+2026-06-24 12:22:20 - Starting checkout for user 1
+2026-06-24 12:22:20 - Payment SUCCESS for user 1
+2026-06-24 12:22:20 - Starting checkout for user 1
+2026-06-24 12:22:20 - Insufficient stock for product 1
+2026-06-24 12:22:20 - Starting checkout for user 1
+2026-06-24 12:22:20 - Applying coupon SAVE10
+2026-06-24 12:22:20 - Calculating discount for coupon: SAVE10
+2026-06-24 12:22:20 - Calculating discount for coupon: INVALID
+2026-06-24 12:22:20 - Invalid discount type: null
+2026-06-24 12:22:20 - Validating coupon: INVALID
+2026-06-24 12:22:20 - Coupon not found: INVALID
+2026-06-24 12:22:20 - Validating coupon: SAVE10
+2026-06-24 12:22:20 - Coupon is valid: SAVE10
+2026-06-24 12:22:20 - Validating coupon: EXPIRED
+2026-06-24 12:22:20 - Coupon expired: EXPIRED
+2026-06-24 12:22:20 - Calculating discount for coupon: SAVE10
+2026-06-24 12:22:20 - Calculating discount for coupon: FLAT50
+2026-06-24 12:22:20 - Adding product 1 to cart for user 1
+2026-06-24 12:22:20 - Adding new item to cart. Product ID: 1
+2026-06-24 12:22:20 - Product successfully added to cart for user 1
+2026-06-24 12:22:21 - Adding product 1 to cart for user 999
+2026-06-24 12:22:21 - User not found with ID 999
+2026-06-24 12:22:21 - Clearing cart for user 1
+2026-06-24 12:22:21 - Cart cleared successfully for user 1
+2026-06-24 12:22:21 - Updating cart item 999
+2026-06-24 12:22:21 - Cart item not found: 999
+2026-06-24 12:22:21 - Fetching cart for user 999
+2026-06-24 12:22:21 - Cart not found for user 999
+2026-06-24 12:22:21 - Removing cart item 1
+2026-06-24 12:22:21 - Cart item 1 removed successfully
+2026-06-24 12:22:21 - Fetching cart for user 1
+2026-06-24 12:22:21 - Updating cart item 1
+2026-06-24 12:22:21 - Cart item 1 updated successfully
+2026-06-24 12:22:21 - Adding product 999 to cart for user 1
+2026-06-24 12:22:21 - Product not found with ID 999
+2026-06-24 12:22:21 - Fetching order by ID 1
+2026-06-24 12:22:21 - Fetching order by ID 99
+2026-06-24 12:22:21 - Order not found: 99
+2026-06-24 12:22:21 - Fetching order history for user 1
+2026-06-24 12:22:21 - Fetching order by ID 1
+2026-06-24 12:22:21 - Fetching order history for user 1
+2026-06-24 12:22:21 - Closing org.springframework.web.context.support.GenericWebApplicationContext@33a053d, started on Wed Jun 24 12:21:59 IST 2026
+2026-06-24 12:22:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:22:21 - HikariPool-1 - Shutdown initiated...
+2026-06-24 12:22:21 - HikariPool-1 - Shutdown completed.
+2026-06-24 12:34:47 - Starting ApplicationTests using Java 21.0.8 with PID 1272 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 12:34:47 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 12:34:47 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@14fc9bd
+2026-06-24 12:34:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 12:34:48 - Finished Spring Data repository scanning in 78 ms. Found 7 JPA repository interfaces.
+2026-06-24 12:34:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 12:34:49 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 12:34:49 - HHH000026: Second-level cache disabled
+2026-06-24 12:34:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 12:34:49 - HikariPool-1 - Starting...
+2026-06-24 12:34:50 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12478b4e
+2026-06-24 12:34:50 - HikariPool-1 - Start completed.
+2026-06-24 12:34:50 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 12:34:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 12:34:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:34:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 12:34:51 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 12:34:51 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 12:34:51 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 12:34:51 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 12:34:52 - Started ApplicationTests in 4.824 seconds (process running for 7.474)
+2026-06-24 12:34:52 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 12:34:52 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 12:34:52 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 12:34:52 - Adding product 1 to cart for user 1
+2026-06-24 12:34:52 - Adding new item to cart. Product ID: 1
+2026-06-24 12:34:52 - Product successfully added to cart for user 1
+2026-06-24 12:34:52 - Adding product 1 to cart for user 999
+2026-06-24 12:34:52 - User not found with ID 999
+2026-06-24 12:34:52 - Clearing cart for user 1
+2026-06-24 12:34:52 - Cart cleared successfully for user 1
+2026-06-24 12:34:52 - Updating cart item 999
+2026-06-24 12:34:52 - Cart item not found: 999
+2026-06-24 12:34:52 - Fetching cart for user 999
+2026-06-24 12:34:52 - Cart not found for user 999
+2026-06-24 12:34:52 - Removing cart item 1
+2026-06-24 12:34:52 - Cart item 1 removed successfully
+2026-06-24 12:34:52 - Fetching cart for user 1
+2026-06-24 12:34:52 - Updating cart item 1
+2026-06-24 12:34:52 - Cart item 1 updated successfully
+2026-06-24 12:34:52 - Adding product 999 to cart for user 1
+2026-06-24 12:34:52 - Product not found with ID 999
+2026-06-24 12:34:52 - Fetching order by ID 1
+2026-06-24 12:34:52 - Fetching order by ID 99
+2026-06-24 12:34:52 - Order not found: 99
+2026-06-24 12:34:52 - Fetching order history for user 1
+2026-06-24 12:34:52 - Fetching order by ID 1
+2026-06-24 12:34:52 - Fetching order history for user 1
+2026-06-24 12:34:52 - Closing org.springframework.web.context.support.GenericWebApplicationContext@14fc9bd, started on Wed Jun 24 12:34:47 IST 2026
+2026-06-24 12:34:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:34:52 - HikariPool-1 - Shutdown initiated...
+2026-06-24 12:34:52 - HikariPool-1 - Shutdown completed.
+2026-06-24 12:52:24 - Starting ApplicationTests using Java 21.0.8 with PID 13348 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 12:52:24 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 12:52:24 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@d5e575c
+2026-06-24 12:52:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 12:52:25 - Finished Spring Data repository scanning in 90 ms. Found 7 JPA repository interfaces.
+2026-06-24 12:52:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 12:52:26 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 12:52:26 - HHH000026: Second-level cache disabled
+2026-06-24 12:52:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 12:52:26 - HikariPool-1 - Starting...
+2026-06-24 12:52:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@774189d0
+2026-06-24 12:52:26 - HikariPool-1 - Start completed.
+2026-06-24 12:52:26 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 12:52:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 12:52:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:52:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 12:52:28 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 12:52:28 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 12:52:28 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 12:52:28 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 12:52:28 - Started ApplicationTests in 4.966 seconds (process running for 7.654)
+2026-06-24 12:52:29 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 12:52:29 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 12:52:29 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 12:52:29 - Adding product 1 to cart for user 1
+2026-06-24 12:52:29 - Adding new item to cart. Product ID: 1
+2026-06-24 12:52:29 - Product successfully added to cart for user 1
+2026-06-24 12:52:29 - Adding product 1 to cart for user 999
+2026-06-24 12:52:29 - User not found with ID 999
+2026-06-24 12:52:29 - Clearing cart for user 1
+2026-06-24 12:52:29 - Cart cleared successfully for user 1
+2026-06-24 12:52:29 - Updating cart item 999
+2026-06-24 12:52:29 - Cart item not found: 999
+2026-06-24 12:52:29 - Fetching cart for user 999
+2026-06-24 12:52:29 - Cart not found for user 999
+2026-06-24 12:52:29 - Removing cart item 1
+2026-06-24 12:52:29 - Cart item 1 removed successfully
+2026-06-24 12:52:29 - Fetching cart for user 1
+2026-06-24 12:52:29 - Updating cart item 1
+2026-06-24 12:52:29 - Cart item 1 updated successfully
+2026-06-24 12:52:29 - Adding product 999 to cart for user 1
+2026-06-24 12:52:29 - Product not found with ID 999
+2026-06-24 12:52:29 - Fetching order by ID 1
+2026-06-24 12:52:29 - Fetching order by ID 99
+2026-06-24 12:52:29 - Order not found: 99
+2026-06-24 12:52:29 - Fetching order history for user 1
+2026-06-24 12:52:29 - Fetching order by ID 1
+2026-06-24 12:52:29 - Fetching order history for user 1
+2026-06-24 12:52:29 - Closing org.springframework.web.context.support.GenericWebApplicationContext@d5e575c, started on Wed Jun 24 12:52:24 IST 2026
+2026-06-24 12:52:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 12:52:29 - HikariPool-1 - Shutdown initiated...
+2026-06-24 12:52:29 - HikariPool-1 - Shutdown completed.
+2026-06-24 13:04:55 - Starting ApplicationTests using Java 21.0.8 with PID 8608 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 13:04:55 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 13:04:55 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@38029686
+2026-06-24 13:04:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 13:04:56 - Finished Spring Data repository scanning in 84 ms. Found 7 JPA repository interfaces.
+2026-06-24 13:04:57 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 13:04:57 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 13:04:57 - HHH000026: Second-level cache disabled
+2026-06-24 13:04:57 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 13:04:57 - HikariPool-1 - Starting...
+2026-06-24 13:04:57 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d04cf8
+2026-06-24 13:04:57 - HikariPool-1 - Start completed.
+2026-06-24 13:04:58 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 13:04:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 13:04:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 13:04:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 13:05:00 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 13:05:00 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 13:05:00 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 13:05:00 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 13:05:00 - Started ApplicationTests in 5.926 seconds (process running for 9.926)
+2026-06-24 13:05:01 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 13:05:01 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 13:05:01 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 13:05:01 - Adding product 1 to cart for user 1
+2026-06-24 13:05:01 - Adding new item to cart. Product ID: 1
+2026-06-24 13:05:01 - Product successfully added to cart for user 1
+2026-06-24 13:05:01 - Adding product 1 to cart for user 999
+2026-06-24 13:05:01 - User not found with ID 999
+2026-06-24 13:05:01 - Clearing cart for user 1
+2026-06-24 13:05:01 - Cart cleared successfully for user 1
+2026-06-24 13:05:01 - Updating cart item 999
+2026-06-24 13:05:01 - Cart item not found: 999
+2026-06-24 13:05:01 - Fetching cart for user 999
+2026-06-24 13:05:01 - Cart not found for user 999
+2026-06-24 13:05:01 - Removing cart item 1
+2026-06-24 13:05:01 - Cart item 1 removed successfully
+2026-06-24 13:05:01 - Fetching cart for user 1
+2026-06-24 13:05:01 - Updating cart item 1
+2026-06-24 13:05:01 - Cart item 1 updated successfully
+2026-06-24 13:05:01 - Adding product 999 to cart for user 1
+2026-06-24 13:05:01 - Product not found with ID 999
+2026-06-24 13:05:01 - Fetching order by ID 1
+2026-06-24 13:05:01 - Fetching order by ID 99
+2026-06-24 13:05:01 - Order not found: 99
+2026-06-24 13:05:01 - Fetching order history for user 1
+2026-06-24 13:05:01 - Fetching order by ID 1
+2026-06-24 13:05:01 - Fetching order history for user 1
+2026-06-24 13:05:01 - Closing org.springframework.web.context.support.GenericWebApplicationContext@38029686, started on Wed Jun 24 13:04:55 IST 2026
+2026-06-24 13:05:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 13:05:01 - HikariPool-1 - Shutdown initiated...
+2026-06-24 13:05:01 - HikariPool-1 - Shutdown completed.
+2026-06-24 13:12:07 - Starting ApplicationTests using Java 21.0.8 with PID 19424 (started by rahul in R:\Workspace_Project\03-ECommerceCartCheckoutModule)
+2026-06-24 13:12:07 - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 13:12:07 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@38029686
+2026-06-24 13:12:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 13:12:08 - Finished Spring Data repository scanning in 94 ms. Found 7 JPA repository interfaces.
+2026-06-24 13:12:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-24 13:12:09 - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-24 13:12:09 - HHH000026: Second-level cache disabled
+2026-06-24 13:12:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 13:12:09 - HikariPool-1 - Starting...
+2026-06-24 13:12:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58835bba
+2026-06-24 13:12:10 - HikariPool-1 - Start completed.
+2026-06-24 13:12:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 13:12:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 13:12:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 13:12:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 13:12:12 - 15 mappings in 'requestMappingHandlerMapping'
+2026-06-24 13:12:12 - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-24 13:12:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-24 13:12:12 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-24 13:12:13 - Started ApplicationTests in 6.278 seconds (process running for 10.057)
+2026-06-24 13:12:13 - 
+    select
+        count(*) 
+    from
+        products p1_0
+2026-06-24 13:12:13 - 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-06-24 13:12:13 - 
+    select
+        count(*) 
+    from
+        coupons c1_0
+2026-06-24 13:12:13 - Adding product 1 to cart for user 1
+2026-06-24 13:12:13 - Adding new item to cart. Product ID: 1
+2026-06-24 13:12:13 - Product successfully added to cart for user 1
+2026-06-24 13:12:13 - Adding product 1 to cart for user 999
+2026-06-24 13:12:13 - User not found with ID 999
+2026-06-24 13:12:13 - Clearing cart for user 1
+2026-06-24 13:12:13 - Cart cleared successfully for user 1
+2026-06-24 13:12:13 - Updating cart item 999
+2026-06-24 13:12:13 - Cart item not found: 999
+2026-06-24 13:12:13 - Fetching cart for user 999
+2026-06-24 13:12:13 - Cart not found for user 999
+2026-06-24 13:12:13 - Removing cart item 1
+2026-06-24 13:12:13 - Cart item 1 removed successfully
+2026-06-24 13:12:13 - Fetching cart for user 1
+2026-06-24 13:12:13 - Updating cart item 1
+2026-06-24 13:12:13 - Cart item 1 updated successfully
+2026-06-24 13:12:13 - Adding product 999 to cart for user 1
+2026-06-24 13:12:13 - Product not found with ID 999
+2026-06-24 13:12:13 - Fetching order by ID 1
+2026-06-24 13:12:13 - Fetching order by ID 99
+2026-06-24 13:12:13 - Order not found: 99
+2026-06-24 13:12:13 - Fetching order history for user 1
+2026-06-24 13:12:13 - Fetching order by ID 1
+2026-06-24 13:12:13 - Fetching order history for user 1
+2026-06-24 13:12:13 - Closing org.springframework.web.context.support.GenericWebApplicationContext@38029686, started on Wed Jun 24 13:12:07 IST 2026
+2026-06-24 13:12:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 13:12:13 - HikariPool-1 - Shutdown initiated...
+2026-06-24 13:12:13 - HikariPool-1 - Shutdown completed.
