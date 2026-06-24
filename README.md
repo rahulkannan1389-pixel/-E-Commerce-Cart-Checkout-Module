@@ -98,3 +98,21 @@ Unit tests implemented for:
 - Coupon validation
   
 All tests executed successfully with zero failures.
+
+## Sample API Flow
+
+1. Add product to cart  
+   POST /api/cart  
+
+2. View cart  
+   GET /api/cart/1  
+
+3. Apply coupon  
+   GET /api/coupons/SAVE10  
+
+4. Checkout  
+   POST /api/checkout  
+
+5. Fetch order history  
+   GET /api/orders/user/1  
+
