@@ -1,4 +1,5 @@
 # E-Commerce Cart & Checkout System
+ This project is a Spring Boot backend application for managing cart operations, checkout flow, and order processing with coupon support.
 
 ##  Features
 - Add, update, remove cart items
@@ -90,3 +91,10 @@ CREATE TABLE coupons (
     discount_value DECIMAL(10,2),
     expiry_date TIMESTAMP
 );
+### Testing 
+Unit tests implemented for:
+- Checkout flow
+- Cart operations
+- Coupon validation
+  
+All tests executed successfully with zero failures.
